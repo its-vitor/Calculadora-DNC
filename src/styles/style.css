@@ -99,3 +99,15 @@ header img{
     padding-top: 10px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    #label, #result-label {
+        width: 70%;
+    }
+    .form {
+        width: 90%;
+    }
+    .results {
+        width:50%; 
+    }
+ }
