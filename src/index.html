@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <img src="imgs/logo.png" alt="">
+    </header>
+    <section>
+        <h1>Tabuada</h1>
+        <div id="label">
+            <p>
+                Que número deseja conhecer a tabuada? <br>
+                <input type="number" class="form" id="num">
+            </p>
+            <p>
+                Até que número você quer? <br>
+                <input type="number" class="form" id="end">
+            </p>
+            <p>
+                <input type="button" value="calcular" id="button" onclick="calculate()">
+            </p>
+        </div>
+        <br>
+        <div id="result-label">
+            <p id="result">
+                Seu resultado sairá aqui
+            </p>
+            <div id="results">
+
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
